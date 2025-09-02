@@ -1,0 +1,101 @@
+<!--
+Copyright (C) 2023-2025 anonymous
+
+This file is part of PSFree.
+
+PSFree is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+PSFree is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>حسين للألعاب الإلكترونية 9.00</title>  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #ff0000, #ff00b3);
+      background-image: url('icon0.jpg');
+      background-size: cover;
+      background-position: center;
+      color: rgb(249, 2, 2);
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    @font-face {
+      font-family: 'logging';
+      src: url('fonts/LiberationMono-Regular.ttf');
+    }
+
+    .card {
+      background: rgba(242, 242, 242, 0.5);
+      backdrop-filter: blur(10px);
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 700px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    #console {
+      font-family: 'logging', monospace;
+      font-size: 18px;
+      text-align: left;
+      background: rgba(255, 246, 246, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      white-space: pre-wrap;
+      height: 300px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    if (window.applicationCache.status === 0) {
+      window.location.replace("cache.html");
+    }
+  </script>
+
+  <div class="card">
+    <h1>    <h1><div class="pill">🎮 مرحباً بك🎮</div>
+<h1 class="psfree-style">حسين للألعاب <span class="brand">الإلكترونية</span></h1>
+<p class="desc">ألعاب •  • بطاقات شحن •  الإكسسوارات</p>
+<p class="location-style">📍 النجف الأشرف، شارع غدير فرات، مقابل كوفي دردشه</p>
+<div class="phones" aria-label="أرقام التواصل">
+  <a class="phone" href="tel:+9647708222300" aria-label="اتصال 07708222300">📞 0770 822 2300</a>
+  <a class="phone" href="tel:+9647836900133" aria-label="اتصال 07836900133">📞 0783 690 0133</a>
+....9.00</h1>
+    <pre id="console"></pre>
+  </div>
+
+  <script src="payload.js"></script>
+  <script type="module" src="./alert.mjs"></script>
+</body>
+</html>
